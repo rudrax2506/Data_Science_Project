@@ -14,23 +14,7 @@ Implement functionality to:
   Recommend "Pages You May Like" for a given user.
 
 📁 Dataset Sample
-The JSON file used in this project contains users and pages information in the following format:
-{
-    "users": [
-        {"id": 1, "name": "Amit", "friends": [2, 3], "liked_pages": [101]},
-        {"id": 2, "name": "Priya", "friends": [1, 4], "liked_pages": [102]},
-        {"id": 3, "name": "", "friends": [1], "liked_pages": [101, 103]},
-        {"id": 4, "name": "Sara", "friends": [2, 2], "liked_pages": [104]},
-        {"id": 5, "name": "Amit", "friends": [], "liked_pages": []}
-    ],
-    "pages": [
-        {"id": 101, "name": "Python Developers"},
-        {"id": 102, "name": "Data Science Enthusiasts"},
-        {"id": 103, "name": "AI & ML Community"},
-        {"id": 104, "name": "Web Dev Hub"},
-        {"id": 104, "name": "Web Development"}
-    ]
-}
+The 2 json files h=which have been used for the project have also been included. They are data.json and data2.json
 
  Features
 ✅ Clean malformed or duplicate entries
